@@ -1,11 +1,19 @@
-import { Button } from "@/components/ui/button";
-import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
-import Image from "next/image";
+import { CallToAction } from "@/components/CTA";
+import { Footer } from "@/components/footer";
+import { Hero } from "@/components/Hero";
+import { Product } from "@/components/Product";
+import { Testimonials } from "@/components/Testimonial";
+import { TextScroll } from "@/components/Textscroll";
 
-export default function Home() {
+export default async function Home() {
   return (
-    <div className="m-4">
-      <h1>Home page Content</h1>
-    </div>
+    <>
+      <Hero/>
+      <TextScroll/>
+      <Product/>
+      <Testimonials/>
+      <CallToAction/>
+      <Footer/>
+    </>
   );
 }
