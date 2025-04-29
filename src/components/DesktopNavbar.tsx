@@ -1,5 +1,5 @@
 import { currentUser } from "@clerk/nextjs/server";
-import { HomeIcon, UserIcon, PhoneIcon, DumbbellIcon } from "lucide-react";
+import { HomeIcon, UserIcon, ClipboardList, DumbbellIcon } from "lucide-react";
 import { Button } from "./ui/button";
 import Link from "next/link";
 import { SignInButton, UserButton } from "@clerk/nextjs";
@@ -26,8 +26,8 @@ export default async function DesktopNavbar() {
           {/* Link ke Kontak */}
           <Button variant="ghost" className="flex items-center gap-2" asChild>
             <Link href="/contact">
-              <PhoneIcon className="w-4 h-4" />
-              <span className="hidden lg:inline">Hubungi Kami</span>
+              <ClipboardList className="w-4 h-4" />
+              <span className="hidden lg:inline">Daftar Latihan</span>
             </Link>
           </Button>
 

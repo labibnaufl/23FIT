@@ -1,4 +1,4 @@
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import { ArrowRightIcon } from "lucide-react";
 import asset1 from "@/assets/sports.png";
 import Image from "next/image";
