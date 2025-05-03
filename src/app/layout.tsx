@@ -41,7 +41,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <div className="min-h-screen">
+            <div className="min-h-full">
               <Navbar />
               <main className="py-0">
                 {children}

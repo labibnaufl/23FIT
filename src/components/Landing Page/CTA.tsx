@@ -20,12 +20,12 @@ export const CallToAction = () => {
                   src={asset1} 
                   alt="dumbell"
                   width={300}
-                  className="hidden lg:block absolute -left-[50px] -top-[190px] transform rotate-[-30deg]"
+                  className="hidden lg:block absolute -left-[30px] -top-[190px] transform rotate-[-30deg]"
                />
 
                <Image
                  src={asset2} 
-                 alt="dumbell"
+                 alt="Kettle"
                  width={200}
                  className="hidden lg:block absolute -right-[100px] -buttom-[227px]"
                />

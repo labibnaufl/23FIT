@@ -12,7 +12,7 @@ export const TextScroll = () => (
     >
       <motion.div
         animate={{
-          x: ["0%", "-50%"], 
+          x: ["0%", "-100%"], 
         }}
         transition={{
           duration: 10,
@@ -20,8 +20,11 @@ export const TextScroll = () => (
           ease: "linear",
           repeatType: "loop",
         }}
-        className="flex whitespace-nowrap text-yellow-400 text-2xl font-extrabold"
+        className="flex whitespace-nowrap text-yellow-400 text-3xl font-extrabold"
       >
+        <span className="mr-8">
+          {Array(20).fill("JOIN US! ").join("")}
+        </span>
         <span className="mr-8">
           {Array(20).fill("JOIN US! ").join("")}
         </span>

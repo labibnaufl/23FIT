@@ -1,4 +1,4 @@
-import {CatatLatihan} from '@/components/Pencatatan Latihan/Catat';
+import {CatatLatihan} from '@/components/Latihan/Catat';
 
 export default  function ExercisePage() {
   return(
